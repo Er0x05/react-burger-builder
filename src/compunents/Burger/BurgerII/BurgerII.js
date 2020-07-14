@@ -41,4 +41,4 @@ BurgerII.propsTypes = {
     type: PropsTypes.string.isRequired
 }
 
-export default BurgerII;
+export default BurgerII; 
