@@ -7,7 +7,7 @@ class Modal extends React.Component {
         console.log(`[Modal] will be updated!`)
     };
     shouldComponentUpdate(nextProps, nextState){
-        return nextProps.show !== this.props.show;
+        return nextProps.show !== this.props.show || nextProps.children !== this.props.children;
     }
     render (){
         return(
